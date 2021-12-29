@@ -1,0 +1,69 @@
+/* Global Styles */
+@import "sb-admin-2.min.css";
+.alert {
+  margin: 10px 0 5px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+#serverStatus {
+    width:20%;
+    height: 5%;
+    float: left;
+    text-align: center;
+}
+
+#parent {
+    width:100%;
+    height: 95%;
+    border: solid 1px black;
+}
+
+#mainCanvas{
+    width: 100%;
+    /*border: solid 1px black;*/
+    position: fixed;
+    bottom: 0;
+}
+.modal{
+    max-width: 1200px;
+}
+.form-section{
+  background: #fff;
+  padding: 20px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+  -moz-box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+  box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+}
+
+.form-section > h2{
+  color: #b38a22;
+  margin-bottom: 10px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.btn-green{background-color: #cee3cb; color: #000; opacity: 0.5;}
+.btn-green:hover{background-color: #cee3cb; color: #000; opacity: 0.9;}
+
+#canvasContainer{
+   width: 100%;
+   height: 100vh;
+   margin-bottom: 25px;
+}
+
+#myCanvas {
+    background-color: transparent;
+    border:1px solid #000000;
+    position: absolute;
+    z-index: 1;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
